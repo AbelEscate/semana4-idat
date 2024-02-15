@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+}
+
+li {
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+}
+
+span {
+    font-weight: normal;
+    font-size: medium;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-family-example {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-size-example {
+    font-size: xx-large;
+}
+
+.line-height-example {
+    line-height: 100px;
+}
+
+.text-align-example {
+    text-align: left;
+}
+
+.text-align-example2 {
+
+    text-align: center;
+
+}
+
+.text-align-example3 {
+
+    text-align: right;
+
+}
+
+.font-weight-example {
+    font-weight: 900;
+}
+
+.text-decoration-example {
+    text-decoration: underline;
+}
+
+.ejemplo {
+    line-height: 50px;
+}

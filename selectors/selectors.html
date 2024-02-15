@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./selectors.css" />
+</head>
+
+<body>
+    <h1>Selectores</h1>
+
+    <section>
+        <ol>
+            <div>
+                <li>
+                    <h2>
+                        Selector de Etiqueta
+                    </h2>
+                </li>
+                <span>Los selectores de etiqueta son aquellos que permiten aplicar estilos a todas las etiquetas de
+                    un tipo. <br>
+                </span>
+                <span>Ejemplo: <br></span>
+                A todos los párrafos (etiqueta P), A todas las listas desordenadas (etiqueta UL) o a todos los
+                enlaces (etiqueta A).</span>
+
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Selector de Clase
+                    </h2>
+                </li>
+                <span>Los selectores de clase buscan un elemento basado en el contenido de su atributo class.
+                    <br></span>
+
+                <span>Ejemplo: <br></span>
+                <span>La sintaxis del selector de clase es la siguiente:</span>
+                <span>.nombre de clase { propiedades de estilo }</span>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Selector ID
+                    </h2>
+                </li>
+                <span>Un selector de ID está diseñado para seleccionar elementos con base en su atributo de
+                    ID. <br></span>
+                <span>Ejemplo: <br></span>
+                <span>#toc seleccionará todos los elementos que tengas como ID «toc».<br>
+                    Tener en cuenta que este selector solo funcionará cuando el valor dado en el selector es idéntico al
+                    del ID del atributo que quieres referir.<br></span>
+
+                <span>La sintaxis del selector de clase es la siguiente: #nombre de ID { propiedades de estilo }</span>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Selector Descendencia
+                    </h2>
+                </li>
+                <span>El selector descendiente es el elemento que es descendiente de otro elemento. <br></span>
+                <span>Ejemplo: <br></span>
+                <span>Si deseamos aplicarle un color a un anchor o hipervinculo o etiqueta <a></a>, que se encuentra
+                    en una lista.<br></span>
+
+                <span> La sintaxis del selector de clase es la siguiente:selector1 selector2 { propiedades de
+                    estilos}</span>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Selector Hijo Directo
+                    </h2>
+                </li>
+                <span>Es usado para aplicar los estilos a los hijos directos de un elemento. Puede estar hecho por
+                    dos o más selectores que estan separados con el signo mayor que (>).<br>
+                    Se puede usar este selector para seleccionar el primer nivel de los elementos anidados. <br></span>
+                <span>Ejemplo: <br></span>
+                <span>La sintaxis del selector de clase es la siguiente: ul>li {}</La>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Selector Hermano Siguiente o Adyacente
+                    </h2>
+                </li>
+                <span>Este selector puede ser usado para seleccionar los elementos hermanos (los que estan al mismo
+                    nivel). Su sintaxis es un elemento seguido del signo más (+) <br>
+                    y luego el otro elemento, donde el objetivo a aplicarle los estilos es el segundo
+                    elemento. <br></span>
+
+                <span>Ejemplo: <br></span>
+                <span>La sintaxis del selector de clase es la siguiente: h1+ p { }</span>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Selector Hermanos Siguientes o Adyacentes
+                    </h2>
+                </li>
+                <span>‌Es parecido al adyacente pero no es tan estricto. Se pueden seleccionar dos selectores
+                    separados por una virgulilla (~). <br>
+                    Se puede tener un elemento separado por la virgulilla, seguido del otro elemento, y el objetivo
+                    del selector para aplicar los estilos es el segundo. Ambos elementos deben tener el mismo
+                    padre. <br></span>
+
+                <span>Ejemplo: <br></span>
+                <span>La sintaxis del selector de clase es la siguiente: h1 ~ p</span>
+            </div>
+
+            <li>
+                <h2>
+                    Selector de Anidamiento
+                </h2>
+            </li>
+            <span>Permitir escribir unos selectores dentro de otros junto con sus propiedades y valores. <br></span>
+
+            <span>Ejemplo: <br></span>
+            <span>La sintaxis del selector de clase es la siguiente: .section.h1 span.a{}</span>
+            </div>
+        </ol>
+    </section>
+</body>
+
+</html>
